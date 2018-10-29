@@ -1,0 +1,54 @@
+dark:
+	full_link: http://whiteeyes.qiniudn.com/dark.png
+	thumb_link: http://whiteeyes.qiniudn.com/dark.png
+	descr: "dark"
+
+git+hexo:
+	full_link: http://whiteeyes.qiniudn.com/git+hexo.png
+	thumb_link: http://whiteeyes.qiniudn.com/git+hexo.png
+	descr: "git+hexo"
+
+shadowsocks:
+	full_link: http://whiteeyes.qiniudn.com/shadowsocks.png
+	thumb_link: http://whiteeyes.qiniudn.com/shadowsocks.png
+	descr: "shadowsocks"
+
+谷歌:
+	full_link: http://whiteeyes.qiniudn.com/google.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/google.jpg
+	descr: "谷歌"
+
+双拼:
+	full_link: http://whiteeyes.qiniudn.com/shuangpin.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/shuangpin.jpg
+	descr: "小鹤双拼键位"
+
+大数据:
+	full_link: http://whiteeyes.qiniudn.com/big-data.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/big-data.jpg
+	descr: "大数据通道"
+
+曲靖:
+	full_link: http://whiteeyes.qiniudn.com/qujing.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/qujing.jpg
+	descr: "曲靖的天空"
+
+湖:
+	full_link: http://whiteeyes.qiniudn.com/1daily_pic.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/1daily_pic.jpg
+	descr: "湖"
+
+幼教:
+	full_link: http://whiteeyes.qiniudn.com/youjiao.JPG
+	thumb_link: http://whiteeyes.qiniudn.com/youjiao.JPG
+	descr: "幼教"
+
+road:
+	full_link: http://whiteeyes.qiniudn.com/daily_pic.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/daily_pic.jpg
+	descr: "road"
+
+Hexo:
+	full_link: http://whiteeyes.qiniudn.com/hexo.jpg
+	thumb_link: http://whiteeyes.qiniudn.com/hexo.jpg
+	descr: "hexo"

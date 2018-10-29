@@ -1,0 +1,22 @@
+# Default post title
+default_post_title: Halo
+
+#Date Format
+date_format: YYYY 年 MM 月 DD 日
+
+# Comment. 
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  appId:  PJkMTX3CTVPU9WIiSbFMseuU-gzGzoHsz
+  appKey:  t4JaGbvyncuLAaGVk2jgOEu0
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  avatar: mm # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  verify: false # valine verify code (true/false)
+  notify: false # valine mail notify (true/false) 
+  lang: zh-cn
+
+# Google Analytics Tracking ID
+google_analytics: 
+ 

@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "coding"]
+	url = git@git.coding.net:whiteeyes/blog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "github"]
+	url = git@github.com:whiteineyes/blog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "all"]
+	url = git@git.coding.net:whiteeyes/blog.git
+	url = git@github.com:whiteineyes/blog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = coding
+	remote = github
+	remote = all
+	merge = refs/heads/master
