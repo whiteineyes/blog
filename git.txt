@@ -1,14 +1,14 @@
 
 
-É¾³ı
-ls  ²é¿´·ÖÖ§
-git rm raindow -r -f  É¾³ı
-git commit -m "delete raindow"   Ìá½»ËµÃ÷
+É¾ï¿½ï¿½
+ls  ï¿½é¿´ï¿½ï¿½Ö§
+git rm raindow -r -f  É¾ï¿½ï¿½
+git commit -m "delete raindow"   ï¿½á½»Ëµï¿½ï¿½
 git push
 
 -----------------------------------------------------
 
-ÇĞ»»·ÖÖ§
+ï¿½Ğ»ï¿½ï¿½ï¿½Ö§
 git branch gh-pages
 git checkout gh-pages
 
@@ -16,44 +16,44 @@ _________________________________________________________
 
 
 
-1,githubÉÏĞÂ½¨Ò»¸öÏîÄ¿£¬Ãû×ÖÓë±¾µØÒÑÓĞÎÄ¼ş¼ĞÏàÍ¬
+1,githubï¿½ï¿½ï¿½Â½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Í¬
 
-2£¬½øÈë±¾µØÄ¿±êÎÄ¼ş¼ĞÄÚ£¬´´½¨²Ö¿â
+2ï¿½ï¿½ï¿½ï¿½ï¿½ë±¾ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¿ï¿½
 git init
 
-3£¬ÉèÖÃÔ¶³Ì²Ö¿âµØÖ·£¬²¢¸üĞÂ·ÖÖ§
+3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Ì²Ö¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½Ö§
 git remote add origin git@github.com:XXX/XXX.git
 git pull origin master
 
-4£¬Èç¹ûÉÏ´«Ê±ĞèÒªºöÂÔÄ³¸öÎÄ¼ş¼Ğ»òÎÄ¼ş£¬¾ÍĞÂ½¨Ò»¸ö.gitignoreÎÄ¼ş£¬Ğ´ÈëÎÄ¼ş¼ĞÃû³Æ
+4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½Ê±ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ğ»ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½Ò»ï¿½ï¿½.gitignoreï¿½Ä¼ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-5£¬Ìá½»
+5ï¿½ï¿½ï¿½á½»
 git add . 
 git commit 
 git push
 _________________________________________________________
 
-git push -f origin master Ç¿ÖÆÍÆËÍ
+git push -f origin master Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-git config --global core.longpaths true ½â¾öÌáÊ¾ÎÄ¼şÃûÌ«³¤£¬git clone
+git config --global core.longpaths true ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ä¼ï¿½ï¿½ï¿½Ì«ï¿½ï¿½ï¿½ï¿½git clone
 
-git config core.longpaths true  ½â¾öÌáÊ¾ÎÄ¼şÃûÌ«³¤£¬git clone
+git config core.longpaths true  ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ä¼ï¿½ï¿½ï¿½Ì«ï¿½ï¿½ï¿½ï¿½git clone
 
 
 ------------------------------
 
-×î¼òµ¥µÄ·½Ê½
+ï¿½ï¿½òµ¥µÄ·ï¿½Ê½
 
 git clone  #http://repo
-È»ºó¶«Î÷·Å½øÈ¥
+È»ï¿½ï¿½ï¿½ï¿½ï¿½Å½ï¿½È¥
 git add .
 git commit -m '****'
-Èç¹ûĞèÒªgh-pages
+ï¿½ï¿½ï¿½ï¿½ï¿½Òªgh-pages
 git branch gh-pages
 git checkout gh-pages
 git push --set-upstream origin gh-pages
 
-
+test
 
 
 
