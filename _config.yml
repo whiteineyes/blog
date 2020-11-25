@@ -80,7 +80,7 @@ theme: hollow
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-	type: git
-	repo:
-		github: git@github.com:whiteineyes/blog.git,gh-pages
-		coding: git@git.dev.tencent.com:whiteeyes/blog.git,coding-pages
+  type: git
+  repo:
+    github: git@github.com:whiteineyes/blog.git,gh-pages
+    coding: git@git.dev.tencent.com:whiteeyes/blog.git,coding-pages
