@@ -4,11 +4,11 @@
 
 # Site
 title: lwc`blog
-subtitle: '刘望城的独立博客'
+subtitle: 'My blog'
 description: ''
 keywords: 
-author: John Doe
-language: en
+author: lwc
+language: zh-CN
 timezone: ''
 
 # URL
@@ -100,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
