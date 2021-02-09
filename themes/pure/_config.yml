@@ -86,7 +86,7 @@ donate:
   enable: true
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechat.png
+    qrcode: images/donate/wechat.jpg
     title: 微信支付
   # 支付宝打赏
   alipay: 
@@ -233,4 +233,4 @@ profile:
   # My Personal Projects
   projects:
     whiteineyes/*: https://github.com/whiteineyes
-    whiteineyes/*: https://github.com/whiteineyes
+    whiteineyes/**: https://github.com/whiteineyes
