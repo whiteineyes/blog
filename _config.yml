@@ -107,3 +107,20 @@ theme: pure
 deploy:
   type: git
   repo: https://github.com/whiteineyes/blog.git,gh-pages
+
+  # hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js' 
