@@ -106,10 +106,10 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  github: https://github.com/whiteineyes/blog.git
-  branch: [gh-pages]
-  coding: https://e.coding.net/whiteeyes/website/blog.git
-  branch: [gh-pages]
+  github: git@github.com:whiteineyes/blog.git,gh-pages
+  coding: 
+    url: git@e.coding.net:whiteeyes/website/blog.git
+    branch: gh-pages
 
   # hexo-neat
 neat_enable: true
