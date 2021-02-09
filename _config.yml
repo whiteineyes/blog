@@ -108,7 +108,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:whiteineyes/blog.git
-    coding: git@e.coding.net:whiteeyes/website/blog.git
+    # coding: git@e.coding.net:whiteeyes/website/blog.git
   # repo: 
   #   github: git@github.com:whiteineyes/blog.git
   branch: gh-pages
