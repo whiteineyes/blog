@@ -107,11 +107,8 @@ theme: pure
 deploy:
   type: git
   repo: git@github.com:whiteineyes/blog.git
-  branch: gh-pages
-  
   coding: git@e.coding.net:whiteeyes/website/blog.git
   branch: gh-pages
-
     # url: git@e.coding.net:whiteeyes/website/blog.git
 
   # hexo-neat
