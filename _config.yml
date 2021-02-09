@@ -109,7 +109,7 @@ deploy:
   repo: git@github.com:whiteineyes/blog.git
   branch: gh-pages
   
-  repo: git@e.coding.net:whiteeyes/website/blog.git
+  coding: git@e.coding.net:whiteeyes/website/blog.git
   branch: gh-pages
 
     # url: git@e.coding.net:whiteeyes/website/blog.git
