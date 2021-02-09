@@ -16,7 +16,9 @@ jobs:
     # check it to your workflow can access it
     # from: https://github.com/actions/checkout
     - name: Checkout Repository master branch
-      uses: actions/checkout@master 
+      uses: actions/checkout@v2
+        with:
+          ref: my-branch
       
     # from: https://github.com/actions/setup-node  
     - name: Setup Node.js 10.x 
