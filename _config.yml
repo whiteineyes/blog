@@ -106,8 +106,9 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:whiteineyes/blog.git
-  coding: git@e.coding.net:whiteeyes/website/blog.git
+  repo: 
+    github: git@github.com:whiteineyes/blog.git
+    coding: git@e.coding.net:whiteeyes/website/blog.git
   branch: gh-pages
     # url: git@e.coding.net:whiteeyes/website/blog.git
 
