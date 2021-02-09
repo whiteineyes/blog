@@ -17,8 +17,8 @@ jobs:
     # from: https://github.com/actions/checkout
     - name: Checkout Repository master branch
       uses: actions/checkout@v2
-        with:
-          ref: my-branch
+      with:
+        ref: master
       
     # from: https://github.com/actions/setup-node  
     - name: Setup Node.js 10.x 
