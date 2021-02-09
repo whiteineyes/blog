@@ -195,11 +195,11 @@ profile:
   social:
     links:
       github: https://github.com/whiteineyes
-      # weibo: http://weibo.com/****
+      weibo: http://weibo.com/****
       twitter: https://twitter.com/****
-      # facebook: /
-      # dribbble: /
-      # behance: https://www.behance.net/****
+      facebook: /
+      dribbble: /
+      behance: https://www.behance.net/****
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
@@ -207,19 +207,19 @@ profile:
     Git: ★★★☆☆
     C++: ★★★☆☆
     C#: ★★★☆☆
-    # Javascript: ★★★☆☆
-    # HTML+CSS: ★★★☆☆
-    # Bootstrap: ★★★☆☆
-    # ThinkPHP: ★★★☆☆
-    # 平面设计: ★★★☆☆
+    Javascript: ★★★☆☆
+    HTML+CSS: ★★★☆☆
+    Bootstrap: ★★★☆☆
+    ThinkPHP: ★★★☆☆
+    平面设计: ★★★☆☆
   # My Personal Links
   links:
     Github: https://github.com/whiteineyes
     Personal Site: https://www.lwc.im
     Blog: https://blog.lwc.im
-    # 微博: http://weibo.com/cofess
-    # 花瓣: http://huaban.com/cofess
-    # Behance: https://www.behance.net/cofess
+    微博: http://weibo.com/cofess
+    花瓣: http://huaban.com/cofess
+    Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
     - 激光
