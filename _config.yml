@@ -108,10 +108,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:whiteineyes/blog.git,gh-pages
-    # coding: git@e.coding.net:whiteeyes/website/blog.git
-  # repo: 
-  #   github: git@github.com:whiteineyes/blog.git
-    # url: git@e.coding.net:whiteeyes/website/blog.git
+    coding: git@e.coding.net:whiteeyes/website/blog.git,gh-pages
 
   # hexo-neat
 neat_enable: true
