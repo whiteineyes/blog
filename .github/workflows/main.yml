@@ -1,5 +1,5 @@
 # workflow name
-name: Hexo Deploy to gh-pages & coding-pages
+name: Deploy to gh-pages & coding-pages
 
 # master branch on push, auto run
 on: 
@@ -15,24 +15,24 @@ jobs:
     steps:
     # check it to your workflow can access it
     # from: https://github.com/actions/checkout
-      - name: Checkout Repository master branch
+      - name: 拉取代码
         uses: actions/checkout@v2
         with:
           ref: master
           persist-credentials: false
         
       # from: https://github.com/actions/setup-node  
-      - name: Setup Node.js 10.x 
+      - name: 安装 Node.js 10.x 
         uses: actions/setup-node@master
         with:
           node-version: "10.x"
       
-      - name: Setup Hexo Dependencies
+      - name: 安装 Hexo 依赖
         run: |
           npm install hexo-cli -g
           npm install
       
-      - name: Setup Deploy Private Key
+      - name: 设置 Private Key
         env:
           HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
           GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
@@ -43,8 +43,8 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           ssh-keyscan e.coding.net >> ~/.ssh/known_hosts
-          git config --global user.name 'whiteineyes' 
-          git config --global user.email 'whiteineyes@gmail.com'
+          git config --global user.name '$GIT_USER_NAME' 
+          git config --global user.email '$GIT_USER_EMAIL'
           
       - name: Deploy Hexo 
         run: |
