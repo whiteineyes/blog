@@ -1,7 +1,9 @@
 # workflow name
 name: Deploy by 语雀
-# 当有 push 到仓库和外部触发的时候就运行
-on: [push, repository_dispatch]
+# 当有外部触发的时候就运行
+on:
+  repository_dispatch:
+    types: [serverless_by_yuque]
 # YUQUE_TOKEN
 # Github_SSH_PRIVATE_KEY
 jobs:
