@@ -104,15 +104,13 @@ theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
+deploy: 
   type: git
   repo: 
-    github: git@github.com:whiteineyes/blog.git
+    github: git@github.com:whiteineyes/blog.git,gh-pages
     # coding: git@e.coding.net:whiteeyes/website/blog.git
   # repo: 
   #   github: git@github.com:whiteineyes/blog.git
-  branch: gh-pages
-  message: 
     # url: git@e.coding.net:whiteeyes/website/blog.git
 
   # hexo-neat
