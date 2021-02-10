@@ -4,6 +4,7 @@ name: Deploy to gh-pages & coding-pages
 # master branch on push, auto run
 on: 
   workflow_dispatch:
+  repository_dispatch:
   push:
     branches:
       - master
