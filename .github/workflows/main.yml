@@ -44,7 +44,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           ssh-keyscan e.coding.net >> ~/.ssh/known_hosts
           git config --global user.name 'whiteineyes' 
-          git config --global user.email '$GIT_USER_EMAIL'
+          git config --global user.email 'whiteineyes@gmail.com'
           
       - name: Deploy Hexo 
         run: |
