@@ -37,6 +37,6 @@ jobs:
       with:
         deploy_key: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
         external_repository: whiteineyes/blog
-        publish_branch: master
+        publish_branch: gh-pages
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
