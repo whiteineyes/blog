@@ -32,7 +32,7 @@ site:
     height: 40
     url: ../images/logo.png
   title: lwc`blog # 页面title
-  favicon: /favicon.png
+  favicon: /favicon-tm.png
   board: <p>欢迎欢迎，热烈欢迎!</p> # 站点公告
   copyright: true # 底部版权信息
 
